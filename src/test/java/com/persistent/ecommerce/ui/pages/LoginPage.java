@@ -44,7 +44,7 @@ public class LoginPage extends SeleniumMethods {
     public By itemPrice = By.xpath("//div[@class='amount price-container']");
     public By shippingPrice = By.xpath("//span[@class='price']/span");
     public By subtotal = By.xpath("//tr[@class='subtotal']//td[@class='amount']//span");
-    public By discount=By.xpath("//tr[@class='discount']/td[@class='amount']/span");
+    public By discount = By.xpath("//tr[@class='discount']/td[@class='amount']/span");
     public By shippingAndHandling = By.xpath("//tr[@class='shipping']//td[@class='amount']//span");
     public By grandTotal = By.xpath("//tr[@class='grand_total']//td[@class='amount']//span");
     public By filledBox = By.xpath("//div[@class='shipping-address-item selected-item']");
@@ -56,18 +56,19 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Parameterized constructor of the class
+     *
      * @param d of WebDriver
      */
     public LoginPage(WebDriver d) {
-        driver=d;
+        driver = d;
 
 
     }
 
     /**
-     *  using getters and setters methods for variables that represent web elements
-     *  This method is used to click create account link which is present in the Magento eCommerce website.
-     *  it will wait for visibility and presence of element before clicking it.
+     * using getters and setters methods for variables that represent web elements
+     * This method is used to click create account link which is present in the Magento eCommerce website.
+     * it will wait for visibility and presence of element before clicking it.
      */
 
     public void clickCreateAccountLink() {
@@ -78,6 +79,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Sets the value of the "Firstname" input field on the eCommerce website
+     *
      * @param firstName the value to be entered in the "Firstname" field
      */
     public void setFirstName(String firstName) {
@@ -88,6 +90,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Sets the value of the "Lastname" input field on the eCommerce website
+     *
      * @param lastName the value to be entered in the "Lastname" field
      */
     public void setLastName(String lastName) {
@@ -98,6 +101,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Sets the value of the "Email" input field on the eCommerce website
+     *
      * @param mail the value to be entered in the "Email" field
      */
     public void setEmail(String mail) {
@@ -108,6 +112,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Sets the value of the "Password" input field on the eCommerce website
+     *
      * @param password the value to be entered in the "Password" field
      */
     public void setPassword(String password) {
@@ -118,6 +123,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Sets the value of the "Confirm Password" input field on the eCommerce website
+     *
      * @param password the value to be entered in the "Confirm Password" field
      */
     public void setPasswordConfirmation(String password) {
@@ -137,6 +143,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Gets the text of the specified element
+     *
      * @param txt whose text is to be returned
      * @return the text of the specified element
      */
@@ -159,6 +166,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Sets the value of the "Email" input field on the eCommerce login page
+     *
      * @param email the value to be entered in the "Email" field
      */
     public void setLoginEmail(String email) {
@@ -172,6 +180,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Sets the value of the "Password" input field on the eCommerce login page
+     *
      * @param password the value to be entered in the "Password" field
      */
 
@@ -212,6 +221,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Sets the quantity of a product to be added to the shopping cart
+     *
      * @param quantity the desired quantity of the product
      */
     public void setQuantity(String quantity) {
@@ -241,6 +251,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Sets the street address for the shipping address on the checkout page
+     *
      * @param street the street address to set for the shipping address
      */
     public void setShippingAddressStreet(String street) {
@@ -251,6 +262,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Sets the city address for the shipping address on the checkout page
+     *
      * @param city the city address to set for the shipping address
      */
     public void setShippingAddressCity(String city) {
@@ -270,6 +282,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Selects the specified state for the shipping address on the checkout page
+     *
      * @param state the state to select for the shipping address
      */
     public void selectShippingAddressState(String state) {
@@ -280,6 +293,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Sets the pin_code for the shipping address on the checkout page
+     *
      * @param pin_code the pin_code to set for the shipping address
      */
     public void setShippingAddressPin_code(String pin_code) {
@@ -299,6 +313,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Selects the specified state for the shipping address on the checkout page
+     *
      * @param country the country to select for the shipping address
      */
     public void selectShippingAddressCountry(String country) {
@@ -309,6 +324,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Sets the phone number for the shipping address on the checkout page
+     *
      * @param phoneNumber the phone number to set for the shipping address
      */
     public void setShippingAddressPhoneNumber(String phoneNumber) {
@@ -356,6 +372,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Sets the name of water bottle to the search bar
+     *
      * @param Bottle the bottle name to set the water bottle
      */
     public void setWaterBottle(String Bottle) {
@@ -382,7 +399,8 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Sets the discount code in the discount code field
-     * @param  discount_code The discount code to enter
+     *
+     * @param discount_code The discount code to enter
      */
     public void setDiscountCode(String discount_code) {
         waitForPresentElement(discountCode);
@@ -400,6 +418,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * This method is used to convert String currency to float and removes dollar symbol
+     *
      * @param strCurrency is the String type currency
      * @return returns the float type currency converted from sting type currency
      */
@@ -410,6 +429,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Retrieving the Item price from cart before clicking checkout
+     *
      * @return it calls and passes the retrieved price to convertToFloat method which returns the float type currency
      */
     public float getItemPrice() {
@@ -420,6 +440,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Retrieving the shipping price from the shipping methods before Review and payments
+     *
      * @return it calls and passes the retrieved price to convertToFloat method which returns the float type currency
      */
 
@@ -432,6 +453,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Retrieving the subtotal of the order placed
+     *
      * @return it calls and passes the retrieved subtotal to convertToFloat method which returns the float type currency
      */
 
@@ -442,6 +464,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Retrieving the shippingAndHandling of the order placed
+     *
      * @return it calls and passes the retrieved shipping and handling to convertToFloat method which returns the float type currency
      */
     public float getShippingAndHandling() {
@@ -451,6 +474,7 @@ public class LoginPage extends SeleniumMethods {
 
     /**
      * Retrieving the GrandTotal of the order placed
+     *
      * @return it calls and passes the retrieved shipping and handling to convertToFloat method which returns the float type currency
      */
     public float getGrandTotal() {
@@ -476,13 +500,14 @@ public class LoginPage extends SeleniumMethods {
             waitForInvisibilityOfElement(extraShippingRadioButton);
         }
     }
-     public float discountPrice(){
-        if(checkPresenceOfElement(discount)){
+
+    public float discountPrice() {
+        if (checkPresenceOfElement(discount)) {
             String discountAmount = findPrice(discount);
             return convertToFloat(discountAmount);
         }
         return 0;
-     }
+    }
 }
 
 

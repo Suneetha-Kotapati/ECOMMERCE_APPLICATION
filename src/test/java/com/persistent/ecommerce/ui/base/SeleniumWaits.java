@@ -12,8 +12,8 @@ import java.time.Duration;
 public class SeleniumWaits extends BasePage {
     /**
      * This method is used to check if an element is present in the HTML DOM of a page
-     * @param by  used to locate elements on a web page
      *
+     * @param by used to locate elements on a web page
      */
     public void waitForPresentElement(By by) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
@@ -22,7 +22,8 @@ public class SeleniumWaits extends BasePage {
 
     /**
      * This method is used to check if an element is visible on the page, and it waits until the element is visible before continuing the test
-     * @param by  used to locate elements on a web page
+     *
+     * @param by used to locate elements on a web page
      */
     public void waitForVisibilityElement(By by) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
@@ -31,6 +32,7 @@ public class SeleniumWaits extends BasePage {
 
     /**
      * This method is used to checks that the element is visible, enabled, and positioned correctly on the page before considering it clickable.
+     *
      * @param by used to locate elements on a web page
      */
     public void waitForClickElement(By by) {
@@ -41,6 +43,7 @@ public class SeleniumWaits extends BasePage {
 
     /**
      * This method is used to wait for a specific element to become invisible on a web page before proceeding with further actions.
+     *
      * @param by used to locate elements on a web page
      */
     public void waitForInvisibilityOfElement(By by) {

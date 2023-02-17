@@ -9,7 +9,8 @@ import org.openqa.selenium.support.ui.Select;
 public class SeleniumMethods extends SeleniumWaits {
     /**
      * This method is used to interact with text-based elements on a web page
-     * @param by used to locate elements on a web page
+     *
+     * @param by   used to locate elements on a web page
      * @param text sending text to text boxes
      */
     public void sendKeys(By by, String text) {
@@ -24,6 +25,7 @@ public class SeleniumMethods extends SeleniumWaits {
 
     /**
      * method is used to interact with web elements on a web page, such as clicking on buttons, links, checkboxes, and radio buttons
+     *
      * @param by used to locate elements on a web page
      */
 
@@ -38,6 +40,7 @@ public class SeleniumMethods extends SeleniumWaits {
 
     /**
      * This method is used to click on My cart present in magento eCommerce website
+     *
      * @param by used to locate elements on a web page
      */
     public void clickShowCart(By by) {
@@ -48,6 +51,7 @@ public class SeleniumMethods extends SeleniumWaits {
 
     /**
      * This method is used to wait for clicking on button.
+     *
      * @param by used to locate elements on a web page
      */
     public void waitForButton(By by) {
@@ -59,8 +63,9 @@ public class SeleniumMethods extends SeleniumWaits {
     }
 
     /**
-     *This method is used to select the data from the dropdown present in magento eCommerce website
-     * @param by used to locate elements on a web page
+     * This method is used to select the data from the dropdown present in magento eCommerce website
+     *
+     * @param by   used to locate elements on a web page
      * @param text select by visible text.
      */
     public void selectFromDropdown(By by, String text) {
@@ -71,8 +76,9 @@ public class SeleniumMethods extends SeleniumWaits {
 
     /**
      * This method is used to send the data to searchbar present in magento eCommerce website
-     * @param by used to locate elements on a web page
-     * @param text  sending text to text boxes
+     *
+     * @param by   used to locate elements on a web page
+     * @param text sending text to text boxes
      */
     public void sendData(By by, String text) {
         WebElement element = driver.findElement(by);
@@ -81,8 +87,9 @@ public class SeleniumMethods extends SeleniumWaits {
     }
 
     /**
-     *This method is used to Retrieve the text of a web element on a web page
-     * @param by used to locate elements on a web page
+     * This method is used to Retrieve the text of a web element on a web page
+     *
+     * @param by   used to locate elements on a web page
      * @param text sending text to text boxes
      * @return the text of the web element as a String
      */
@@ -101,6 +108,7 @@ public class SeleniumMethods extends SeleniumWaits {
 
     /**
      * This method is used to find the price of web element
+     *
      * @param by used to locate elements on a web page
      * @return the text of the web element as a String
      */
@@ -111,6 +119,7 @@ public class SeleniumMethods extends SeleniumWaits {
 
     /**
      * This method searches weather provided web element is present or not.
+     *
      * @param element is the locator of the element
      * @return true if the size > 0 else false
      */

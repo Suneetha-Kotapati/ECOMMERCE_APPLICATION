@@ -13,6 +13,7 @@ public enum DataFile {
 
     /**
      * Constructor
+     *
      * @param data to send data.
      */
     DataFile(String data) {
