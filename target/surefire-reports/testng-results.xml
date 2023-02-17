@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-17T12:30:18 IST" name="Surefire suite" finished-at="2023-02-17T12:32:28 IST" duration-ms="129655">
+    <groups>
+    </groups>
+    <test started-at="2023-02-17T12:30:18 IST" name="Surefire test" finished-at="2023-02-17T12:32:28 IST" duration-ms="129655">
+      <class name="com.persistent.ecommerce.ui.tests.EcommerceTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.persistent.ecommerce.ui.tests.EcommerceTests@550dbc7a]" started-at="2023-02-17T12:30:18 IST" name="setup" finished-at="2023-02-17T12:30:22 IST" duration-ms="4256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAccount()[pri:0, instance:com.persistent.ecommerce.ui.tests.EcommerceTests@550dbc7a]" started-at="2023-02-17T12:30:22 IST" name="createAccount" finished-at="2023-02-17T12:30:30 IST" duration-ms="8169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.persistent.ecommerce.ui.tests.EcommerceTests@550dbc7a]" started-at="2023-02-17T12:30:30 IST" name="teardown" finished-at="2023-02-17T12:30:34 IST" duration-ms="3282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.persistent.ecommerce.ui.tests.EcommerceTests@550dbc7a]" started-at="2023-02-17T12:30:34 IST" name="setup" finished-at="2023-02-17T12:30:37 IST" duration-ms="3598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createOrder()[pri:0, instance:com.persistent.ecommerce.ui.tests.EcommerceTests@550dbc7a]" started-at="2023-02-17T12:30:37 IST" name="createOrder" finished-at="2023-02-17T12:31:34 IST" duration-ms="56472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.persistent.ecommerce.ui.tests.EcommerceTests@550dbc7a]" started-at="2023-02-17T12:31:34 IST" name="teardown" finished-at="2023-02-17T12:31:39 IST" duration-ms="5022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.persistent.ecommerce.ui.tests.EcommerceTests@550dbc7a]" started-at="2023-02-17T12:31:39 IST" name="setup" finished-at="2023-02-17T12:31:42 IST" duration-ms="3251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="orderingWaterBottle()[pri:0, instance:com.persistent.ecommerce.ui.tests.EcommerceTests@550dbc7a]" started-at="2023-02-17T12:31:42 IST" name="orderingWaterBottle" finished-at="2023-02-17T12:32:23 IST" duration-ms="41130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderingWaterBottle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.persistent.ecommerce.ui.tests.EcommerceTests@550dbc7a]" started-at="2023-02-17T12:32:23 IST" name="teardown" finished-at="2023-02-17T12:32:28 IST" duration-ms="4419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.persistent.ecommerce.ui.tests.EcommerceTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

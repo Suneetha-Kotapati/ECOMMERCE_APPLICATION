@@ -1,0 +1,6 @@
+com\persistent\ecommerce\ui\tests\EcommerceTests.class
+com\persistent\ecommerce\ui\base\BasePage.class
+com\persistent\ecommerce\ui\pages\LoginPage.class
+com\persistent\ecommerce\common\enums\DataFile.class
+com\persistent\ecommerce\ui\base\SeleniumMethods.class
+com\persistent\ecommerce\ui\base\SeleniumWaits.class
