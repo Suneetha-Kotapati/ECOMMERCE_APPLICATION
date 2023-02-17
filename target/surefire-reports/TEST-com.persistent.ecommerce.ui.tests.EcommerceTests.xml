@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.persistent.ecommerce.ui.tests.EcommerceTests" time="130.774" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.persistent.ecommerce.ui.tests.EcommerceTests" time="129.064" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Suneetha.Kotapati\AppData\Local\Temp\surefire16967496428990103055\surefirebooter-20230217123016986_3.jar C:\Users\Suneetha.Kotapati\AppData\Local\Temp\surefire16967496428990103055 2023-02-17T12-30-16_561-jvmRun1 surefire-20230217123016986_1tmp surefire_0-20230217123016986_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Suneetha.Kotapati\AppData\Local\Temp\surefire15417796230065454428\surefirebooter-20230217145333994_3.jar C:\Users\Suneetha.Kotapati\AppData\Local\Temp\surefire15417796230065454428 2023-02-17T14-53-33_611-jvmRun1 surefire-20230217145333994_1tmp surefire_0-20230217145333994_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Suneetha.Kotapati\OneDrive - Vertex, Inc\Documents\ECOMMERCE_APPLICATION\ECOMMERCE__APPLICATION\target\test-classes;C:\Users\Suneetha.Kotapati\OneDrive - Vertex, Inc\Documents\ECOMMERCE_APPLICATION\ECOMMERCE__APPLICATION\target\classes;C:\Users\Suneetha.Kotapati\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Suneetha.Kotapati\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Suneetha.Kotapati\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.1\webdrivermanager-5.3.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\slf4j\slf4j-api\2.0.3\slf4j-api-2.0.3.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\Suneetha.Kotapati\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.10.0\maven-compiler-plugin-3.10.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.10.0\plexus-compiler-api-2.10.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.1\plexus-utils-3.4.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.10.0\plexus-compiler-manager-2.10.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.10.0\plexus-compiler-javac-2.10.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\commons-io\commons-io\2.10.0\commons-io-2.10.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\seleniumhq\selenium\selenium-java\4.7.1\selenium-java-4.7.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\seleniumhq\selenium\selenium-api\4.7.1\selenium-api-4.7.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.7.1\selenium-chrome-driver-4.7.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.7.1\selenium-chromium-driver-4.7.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\seleniumhq\selenium\selenium-json\4.7.1\selenium-json-4.7.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.7.1\selenium-devtools-v106-4.7.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.7.1\selenium-devtools-v107-4.7.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.7.1\selenium-devtools-v108-4.7.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.7.1\selenium-devtools-v85-4.7.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.7.1\selenium-edge-driver-4.7.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.7.1\selenium-firefox-driver-4.7.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\seleniumhq\selenium\selenium-http\4.7.1\selenium-http-4.7.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.7.1\selenium-ie-driver-4.7.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.7.1\selenium-remote-driver-4.7.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Suneetha.Kotapati\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Suneetha.Kotapati\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.7.1\selenium-manager-4.7.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.7.1\selenium-safari-driver-4.7.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\org\seleniumhq\selenium\selenium-support\4.7.1\selenium-support-4.7.1.jar;C:\Users\Suneetha.Kotapati\.m2\repository\com\google\code\gson\gson\2.10\gson-2.10.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Suneetha.Kotapati\AppData\Local\Temp\surefire16967496428990103055\surefirebooter-20230217123016986_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Suneetha.Kotapati\AppData\Local\Temp\surefire15417796230065454428\surefirebooter-20230217145333994_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
@@ -63,184 +63,102 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="createAccount" classname="com.persistent.ecommerce.ui.tests.EcommerceTests" time="8.174">
+  <testcase name="createAccount" classname="com.persistent.ecommerce.ui.tests.EcommerceTests" time="6.91">
     <system-out><![CDATA[Contact Information
 Suneetha Kotapati
-sunikpati54@gmail.com
+demoemail6@gmail.com
 Edit Change Password
 Order Completed: Test Case Passed
 Contact Information
 Suneetha Kotapati
-sunikpati54@gmail.com
+demoemail6@gmail.com
 Edit Change Password
 Order Completed: Test Case Passed
 ]]></system-out>
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-1676617219298	geckodriver	INFO	Listening on 127.0.0.1:2110
-1676617219904	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "34697" "--remote ... st:34697/,http://[::1]:34697/" "-no-remote" "-profile" "C:\\Users\\SUNEET~1.KOT\\AppData\\Local\\Temp\\rust_mozprofileSghimE"
+1676625815468	geckodriver	INFO	Listening on 127.0.0.1:21574
+1676625815896	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "29661" "--remote ... st:29661/,http://[::1]:29661/" "-no-remote" "-profile" "C:\\Users\\SUNEET~1.KOT\\AppData\\Local\\Temp\\rust_mozprofileZ4LrfU"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1676617220382	Marionette	INFO	Marionette enabled
+1676625816246	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1676617220387	Marionette	INFO	Listening on port 50709
-Read port: 50709
-WebDriver BiDi listening on ws://127.0.0.1:34697
-1676617220563	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SUNEET~1.KOT\\AppData\\Local\\Temp\\rust_mozprofileSghimE\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:34697/devtools/browser/1063467c-1795-4059-9627-a697227ebc33
+1676625816250	Marionette	INFO	Listening on port 58381
+WebDriver BiDi listening on ws://127.0.0.1:29661
+Read port: 58381
+1676625816411	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SUNEET~1.KOT\\AppData\\Local\\Temp\\rust_mozprofileZ4LrfU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:29661/devtools/browser/89485a80-c82d-49e4-8b07-64758326be7f
 JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/view/messages
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/core/element/links
 http://requirejs.org/docs/errors.html#scripterror
 JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: MSP_ReCaptcha/js/ui-messages-mixin
 http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/core/element/links
+http://requirejs.org/docs/errors.html#scripterror
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
 ]]></system-err>
   </testcase>
-  <testcase name="createOrder" classname="com.persistent.ecommerce.ui.tests.EcommerceTests" time="56.472">
-    <system-out><![CDATA[itemprice:590.0
-shipping price :50.0
-subtotal:590.0
-discount:-118.0
-shipping:50.0
-grandtotal:522.0
+  <testcase name="createOrder" classname="com.persistent.ecommerce.ui.tests.EcommerceTests" time="65.22">
+    <system-out><![CDATA[itemprice:59.0
+shipping price :5.0
+subtotal:59.0
+discount:0.0
+shipping:5.0
+grandtotal:64.0
 testcase passes
 ]]></system-out>
-    <system-err><![CDATA[1676617230852	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:52043
-1676617230855	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1676617230917	Marionette	INFO	Stopped listening on port 50709
+    <system-err><![CDATA[1676625825129	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:62309
+1676625825133	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1676625825204	Marionette	INFO	Stopped listening on port 58381
 Dynamically enable window occlusion 1
-!!! error running onStopped callback: TypeError: callback is not a function
-1676617234229	geckodriver	INFO	Listening on 127.0.0.1:34654
-1676617234286	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1071" "--remote- ... host:1071/,http://[::1]:1071/" "-no-remote" "-profile" "C:\\Users\\SUNEET~1.KOT\\AppData\\Local\\Temp\\rust_mozprofilesXT0L5"
+1676625827758	geckodriver	INFO	Listening on 127.0.0.1:31064
+1676625827804	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "9105" "--remote- ... host:9105/,http://[::1]:9105/" "-no-remote" "-profile" "C:\\Users\\SUNEET~1.KOT\\AppData\\Local\\Temp\\rust_mozprofileAM3Rs1"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1676617235444	Marionette	INFO	Marionette enabled
+1676625828147	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1676617235452	Marionette	INFO	Listening on port 52059
-Read port: 52059
-WebDriver BiDi listening on ws://127.0.0.1:1071
-1676617235640	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SUNEET~1.KOT\\AppData\\Local\\Temp\\rust_mozprofilesXT0L5\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:1071/devtools/browser/af8e599a-9250-4a6d-b8a7-251300657098
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/extender/bound-nodes
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/template/observable_source
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery-ui-modules/button
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery-ui-modules/draggable
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/Magento_Translation/js/mage-translation-dictionary.js, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/logger/console-logger
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery-ui-modules/resizable
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: knockoutjs/knockout-fast-foreach
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: knockoutjs/knockout-repeat
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/template/renderer
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery-ui-modules/position
-http://requirejs.org/docs/errors.html#scripterror
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/form/adapter
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/model/messages
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery-ui-modules/datepicker
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery-ui-modules/timepicker
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: spectrum
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: tinycolor
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/utils/template
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/logger/entry
-http://requirejs.org/docs/errors.html#scripterror
-]]></system-err>
-  </testcase>
-  <testcase name="orderingWaterBottle" classname="com.persistent.ecommerce.ui.tests.EcommerceTests" time="41.131">
-    <system-out><![CDATA[itemprice:70.0
-subtotal:70.0
-discount:-49.0
-shipping:50.0
-grandtotal:71.0
-testcase passes
-]]></system-out>
-    <system-err><![CDATA[1676617294200	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:55436
-1676617294206	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1676617294214	Marionette	INFO	Stopped listening on port 52059
-Dynamically enable window occlusion 1
-[Parent 31612, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
-[Parent 31612, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
-1676617299372	geckodriver	INFO	Listening on 127.0.0.1:15731
-1676617299398	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "35633" "--remote ... st:35633/,http://[::1]:35633/" "-no-remote" "-profile" "C:\\Users\\SUNEET~1.KOT\\AppData\\Local\\Temp\\rust_mozprofilegEjNUU"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1676617299925	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1676617299930	Marionette	INFO	Listening on port 49682
-Read port: 49682
-WebDriver BiDi listening on ws://127.0.0.1:35633
-1676617300087	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SUNEET~1.KOT\\AppData\\Local\\Temp\\rust_mozprofilegEjNUU\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:35633/devtools/browser/77a340d1-a02b-4e53-b927-e83ce319b375
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/ie-class-fixer
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/translate
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bootstrap
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery/patches/jquery
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/smart-keyboard-handler
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/apply/main
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery-ui-modules/widget
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery/patches/jquery-ui
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/tabs
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/modal/confirm
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/template
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: text
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery-ui-modules/dialog
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: matchMedia
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: domReady
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery/jquery-migrate
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/mage
-http://requirejs.org/docs/errors.html#scripterror
+1676625828151	Marionette	INFO	Listening on port 52120
+Read port: 52120
+WebDriver BiDi listening on ws://127.0.0.1:9105
+1676625828383	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SUNEET~1.KOT\\AppData\\Local\\Temp\\rust_mozprofileAM3Rs1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:9105/devtools/browser/cedf6c59-48ee-4a0c-afe0-bcf93b885f00
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
 JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/Magento_Customer/js/customer-data.js, line 1: Error: [object Object]
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/dataPost
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery/jquery.mobile.custom
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/bootstrap
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/common
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: FormData
+]]></system-err>
+  </testcase>
+  <testcase name="orderingWaterBottle" classname="com.persistent.ecommerce.ui.tests.EcommerceTests" time="39.121">
+    <system-out><![CDATA[itemprice:7.0
+subtotal:7.0
+discount:-4.9
+shipping:5.0
+grandtotal:7.1
+testcase passes
+]]></system-out>
+    <system-err><![CDATA[1676625895331	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:54462
+1676625895336	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1676625895342	Marionette	INFO	Stopped listening on port 52120
+Dynamically enable window occlusion 1
+1676625898803	geckodriver	INFO	Listening on 127.0.0.1:25647
+1676625898828	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23039" "--remote ... st:23039/,http://[::1]:23039/" "-no-remote" "-profile" "C:\\Users\\SUNEET~1.KOT\\AppData\\Local\\Temp\\rust_mozprofiledrgBGV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676625899172	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676625899176	Marionette	INFO	Listening on port 54468
+WebDriver BiDi listening on ws://127.0.0.1:23039
+Read port: 54468
+1676625899422	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SUNEET~1.KOT\\AppData\\Local\\Temp\\rust_mozprofiledrgBGV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:23039/devtools/browser/6a0d49ff-38e9-4777-9d95-3a2a7f0706c1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/Magento_Customer/js/customer-data.js, line 1: Error: [object Object]
+1676625907613	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1666447838/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/logger/entry
 http://requirejs.org/docs/errors.html#scripterror
 ]]></system-err>
   </testcase>

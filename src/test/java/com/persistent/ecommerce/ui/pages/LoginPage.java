@@ -483,7 +483,7 @@ public class LoginPage extends SeleniumMethods {
     }
 
     /**
-     * This method calls shippingAddress method to check weather a pre-Saved address box is present or not
+     * This method calls shippingAddress method to check whether a pre-Saved address box is present or not
      * if shippingAddress returns true then no need to fill the address form, so we are failing the if condition by ! symbol
      * else it fills the form
      */
@@ -501,6 +501,11 @@ public class LoginPage extends SeleniumMethods {
         }
     }
 
+    /**
+     * This method will check whether discount has applied to the order or not
+     *
+     * @return returns discount amount if discount applied else returns 0
+     */
     public float discountPrice() {
         if (checkPresenceOfElement(discount)) {
             String discountAmount = findPrice(discount);
